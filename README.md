@@ -21,6 +21,44 @@ A mobile laundry application built using **React Native CLI**, **Redux Toolkit**
 
 ## 📸 App Screenshots
 
+## 📸 App Screenshots
+
+### 🧾Login Screen
+![Screenshot1](src/assets/images/Screenshot1.png)
+
+### 🛒 Register Screen
+![Screenshot2](src/assets/images/Screenshot2.png)
+
+### 👤 Home Screen
+![Screenshot3](src/assets/images/Screenshot3.png)
+
+### 🧰 Product Detail
+![Screenshot4](src/assets/images/Screenshot4.png)
+
+### 📅 Add Product in Cart
+![Screenshot5](src/assets/images/Screenshot5.png)
+
+### 🔐 Select Pickup Date
+![Screenshot6](src/assets/images/Screenshot6.png)
+
+### 📝 Select Pickup Date
+![Screenshot7](src/assets/images/Screenshot7.png)
+
+### 🚪 Place Order
+![Screenshot8](src/assets/images/Screenshot8.png)
+
+### 📦 Place Order
+![Screenshot9](src/assets/images/Screenshot9.png)
+
+### 🧺 Place Order
+![Screenshot10](src/assets/images/Screenshot10.png)
+
+### 💬 Order Success
+![Screenshot11](src/assets/images/Screenshot11.png)
+
+### 🎉 Sign Out
+![Screenshot12](src/assets/images/Screenshot12.png)
+
 
 ## 🛠️ Getting Started
 
@@ -31,6 +69,49 @@ git clone https://github.com/PremmChand/MyLaundryApp.git
 cd your-repo-name
 
 
+# Using npm
+npm start
 
+# OR using Yarn
+yarn start
+```
 
+## Step 2: Build and run your app
 
+With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+
+### Android
+
+```sh
+# Using npm
+npm run android
+
+# OR using Yarn
+yarn android
+```
+
+### iOS
+
+For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+
+The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+
+```sh
+bundle install
+```
+
+Then, and every time you update your native dependencies, run:
+
+```sh
+bundle exec pod install
+```
+
+For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+
+```sh
+# Using npm
+npm run ios
+
+# OR using Yarn
+yarn ios
+```
