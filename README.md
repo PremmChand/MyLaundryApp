@@ -115,3 +115,5 @@ npm run ios
 # OR using Yarn
 yarn ios
 ```
+
+Made with ❤️ by [Premm Chand] - Feel free to reach out for contributions or feedback!
