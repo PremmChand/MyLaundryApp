@@ -9,3 +9,9 @@ const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
 const config = {};
 
 module.exports = mergeConfig(getDefaultConfig(__dirname), config);
+
+// Below line added at 12-05-2025
+
+const defaultConfig = getDefaultConfig(__dirname);
+defaultConfig.resolver.sourceExts.push('cjs');
+defaultConfig.resolver.unstable_enablePackageExports = false;
