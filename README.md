@@ -21,7 +21,7 @@ A mobile laundry application built using **React Native CLI**, **Redux Toolkit**
 
 ## 📸 App Screenshots
 
-## 📸 App Screenshots
+
 
 ### 🧾Login Screen
 ![Screenshot1](src/assets/images/Screenshot1.png)
